@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'black21': '#212121',
+                        'black12': '#121212',
+                        'black38': '#383838',
+                        'black18': '#181818',
+                        'black47': '#474747',
+                        'black32': '#323232',
+                        'primary': '#aaaaaa',
+                    },
+                },
+                fontFamily: {
+                    'body': ['Roboto', '"sans-serif"'],
+                }
+            },
+        };
+    </script>
+</head>
+
+<body class="flex font-body overflow-hidden">
+    <aside class="h-screen w-[220px] bg-black21 pr-[20px] pt-[16px] text-white overflow-hidden hover:overflow-y-auto">
+        <div class="flex  mb-[28px] px-[20px]">
+            <button class="mr-[18px]">
+                <i class="fa fa-bars   text-[22px]"></i>
+            </button>
+            <a href="index.html">
+                <img src="./assets/img/Youtube logo.svg" alt="">
+            </a>
+        </div>
+        <div class="">
+            <a href="#" class=" px-[20px] flex items-center bg-black38 py-[10px]">
+                <i class="fa fa-home text-[20px] mr-[20px]"></i>
+                <span class="text-[12px]">Home</span>
+            </a>
+            <a href="#" class=" px-[20px] flex items-center  py-[10px] hover:bg-black38">
+                <img src="./assets/img/explore.svg" class="mr-[20px] size-[20px]" alt="">
+                <span class="text-[12px]">Explores</span>
+            </a>
+            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
+                <img src="./assets/img/shorts.svg" class="mr-[20px] size-[20px]" alt="">
+                <span class="text-[12px]">Shorts</span>
+            </a>
+            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
+                <img src="./assets/img/subs.svg" class="mr-[20px] size-[20px]" alt="">
+                <span class="text-[12px]">Subscriptions</span>
+            </a>
+
+            <hr class="border border-black38 my-[16px]">
+
+            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
+                <img src="./assets/img/library.svg" class="mr-[20px] size-[20px]" alt="">
+                <span class="text-[12px]">Library</span>
+            </a>
+            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
+                <img src="./assets/img/history.svg" class="mr-[20px] size-[20px]" alt="">
+                <span class="text-[12px]">History</span>
+            </a>
+            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
+                <img src="./assets/img/your-videos.svg" class="mr-[20px] size-[20px]" alt="">
+                <span class="text-[12px]">Your videos</span>
+            </a>
+            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
+                <img src="./assets/img/watch-later.svg" class="mr-[20px] size-[20px]" alt="">
+                <span class="text-[12px]">Watch later</span>
+            </a>
+            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
+                <img src="./assets/img/liked.svg" class="mr-[20px] size-[20px]" alt="">
+                <span class="text-[12px]">Liked videos</span>
+            </a>
+            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
+                <img src="./assets/img/more.svg" class="mr-[20px] size-[20px]" alt="">
+                <span class="text-[12px]">Show more</span>
+            </a>
+
+            <hr class="border border-black38 my-[16px]">
+
+            <h3 class="pl-[21px] mb-[8px] text-primary font-semibold text-[13px]">SUBSCRIPTIONS</h3>
+
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px] ">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                <div class="flex items-center">
+                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                    </figure>
+                    <span class="text-[12px]">Nadir On The Go</span>
+                </div>
+                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+            </a>
+        </div>
+    </aside>
+    <main class="bg-black18 w-[calc(100%_-_220px)] py-[7px] pl-[10px] overflow-hidden">
+        <div class="flex items-center">
+            <div class="flex items-center flex-1 justify-center">
+                <div class="flex w-[534px] h-[36px] ">
+                    <input type="text" placeholder="Search" class="bg-transparent w-[100%] border border-black32  focus:border-blue-600 rounded-l-sm outline-none placeholder-primary pl-[6px] text-primary">
+                    <button class="py-[6px] px-[16px] bg-black32 rounded-r-sm">
+                        <i class="fa-solid fa-magnifying-glass text-white"></i>
+                    </button>
+                </div>
+                <button class="text-white ml-[8px] hover:bg-black38 hover:rounded-full py-[9px] px-[11px]">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+            </div>
+            <div class="flex items-center space-x-[20px] pr-[32px] pl-[24px]">
+                <img src="./assets/img/add-video.svg" class="size-[24px] cursor-pointer" alt="">
+                <img src="./assets/img/bars.svg" class="size-[24px] cursor-pointer" alt="">
+                <img src="./assets/img/notification.svg" class="size-[24px] cursor-pointer" alt="">
+                <a href="#" class="size-[28px] overflow-hidden rounded-full">
+                    <img src="./assets/img/man.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <hr class="border border-black38 mt-[7px]"> 
+
+        <div class="flex items-center  px-[12px] my-[10px] space-x-[12px] text-[12px] overflow-hidden hover:overflow-x-auto ">
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-black bg-white">All</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Cook Studio</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">UX</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Case Study</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Music</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Bnagla Lofi</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Tour</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Saintmartin</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Tech</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">iPhone 13</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">User Interface Design</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Computer Programming</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Web</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Case Study</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Frontend</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Backend</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">CookStudio</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Computer Programming</a>
+            <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">CookStudio</a>
+            <button class="text-white absolute right-0 bg-black12 size-[50px]">
+                <i class="fa-solid fa-chevron-right"></i>   
+            </button>
+        </div>
+
+        <hr class="border border-black38 mt-[7px]"> 
+
+        <div class="grid grid-cols-4 gap-y-[35px] gap-x-[14px] px-[25px] py-[20px] overflow-hidden  hover:overflow-y-auto ">
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" h-[219px] w-[242px]">
+                <figure class="h-[136px] w-[100%] mb-[10px]">
+                    <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
+                </figure>
+                <div class="flex">
+                    <figure class="size-[32px] overflow-hidden rounded-full shrink-0 mr-[10px]">
+                        <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
+                    </figure>
+                    <div>
+                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                            Season One | Ritu Raj X Nandit
+                        </h4>
+                        <div class="flex text-primary mb-[2px] text-[12px]">
+                            <p class="mr-[14px]">
+                                Coke Studio Bangla
+                            </p>
+                            <img src="./assets/img/verifed.svg" alt="">
+                        </div>
+                        <div class="flex items-center space-x-[5px] text-primary text-[12px]">
+                            <span>1.5 M views</span>
+                            <span class="size-[3px] bg-primary rounded-full"></span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+        </div>
+    </main>
+</body>
+
+</html>
