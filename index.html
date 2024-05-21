@@ -34,185 +34,189 @@
     </script>
 </head>
 
-<body class="flex font-body overflow-hidden">
-    <aside class="h-screen w-[220px] bg-black21 pr-[20px] pt-[16px] text-white ">
+<body class="flex font-body bg-black18 overflow-hidden group">
+    
+    <aside class="h-screen w-[220px] bg-black21 pr-[20px] pt-[16px] text-white group has-[:checked]:w-[60px] has-[:checked]:pr-0">
+        <input type="checkbox"  id="check" class="peer hidden">
         <div class="flex  mb-[28px] px-[20px]">
-            <button class="mr-[18px]">
+            <label for="check" class="cursor-pointer mr-[18px]">
                 <i class="fa fa-bars   text-[22px]"></i>
-            </button>
+            </label>
             <a href="index.html">
                 <img src="./assets/img/Youtube logo.svg" alt="">
             </a>
         </div>
         <div class="h-[calc(100vh_-_55px)] overflow-hidden hover:overflow-y-auto">
-            <a href="#" class=" px-[20px] flex items-center bg-black38 py-[10px]">
-                <i class="fa fa-home text-[20px] mr-[20px]"></i>
-                <span class="text-[12px]">Home</span>
+            <a href="#" class=" px-[20px] h-[34px] flex items-center bg-black38 py-[10px] group-has-[:checked]:after:flex after:items-center  after:hidden hover:after:content-['Home'] after:absolute hover:after:ml-[40px] hover:after:h-[34px] hover:after:px-[10px] hover:after:bg-black38">
+                <i class="fa fa-home text-[20px] mr-[20px] shrink-0"></i>
+                <span class="text-[12px]">Home</span>      
             </a>
-            <a href="#" class=" px-[20px] flex items-center  py-[10px] hover:bg-black38">
-                <img src="./assets/img/explore.svg" class="mr-[20px] size-[20px]" alt="">
+            <a href="#" class=" px-[20px] h-[34px] flex items-center  py-[10px] hover:bg-black38 group-has-[:checked]:after:flex after:items-center  after:hidden hover:after:content-['Explores'] after:absolute hover:after:ml-[40px] hover:after:h-[34px] hover:after:px-[10px] hover:after:bg-black38">
+                <img src="./assets/img/explore.svg" class="mr-[20px] shrink-0 size-[20px]" alt="">
                 <span class="text-[12px]">Explores</span>
             </a>
-            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
-                <img src="./assets/img/shorts.svg" class="mr-[20px] size-[20px]" alt="">
+            <a href="#" class=" px-[20px] h-[34px] flex items-center py-[10px] hover:bg-black38 group-has-[:checked]:after:flex after:items-center  after:hidden hover:after:content-['Shorts'] after:absolute hover:after:ml-[40px] hover:after:h-[34px] hover:after:px-[10px] hover:after:bg-black38">
+                <img src="./assets/img/shorts.svg" class="mr-[20px] shrink-0 size-[20px]" alt="">
                 <span class="text-[12px]">Shorts</span>
             </a>
-            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
-                <img src="./assets/img/subs.svg" class="mr-[20px] size-[20px]" alt="">
+            <a href="#" class=" px-[20px] h-[34px] flex items-center py-[10px] hover:bg-black38 group-has-[:checked]:after:flex after:items-center  after:hidden hover:after:content-['Subscriptions'] after:absolute hover:after:ml-[40px] hover:after:h-[34px] hover:after:px-[10px] hover:after:bg-black38">
+                <img src="./assets/img/subs.svg" class="mr-[20px] shrink-0 size-[20px]" alt="">
                 <span class="text-[12px]">Subscriptions</span>
             </a>
 
             <hr class="border border-black38 my-[16px]">
 
-            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
-                <img src="./assets/img/library.svg" class="mr-[20px] size-[20px]" alt="">
+            <a href="#" class=" px-[20px] h-[34px] flex items-center py-[10px] hover:bg-black38 group-has-[:checked]:after:flex after:items-center  after:hidden hover:after:content-['Library'] after:absolute hover:after:ml-[40px] hover:after:h-[34px] hover:after:px-[10px] hover:after:bg-black38">
+                <img src="./assets/img/library.svg" class="mr-[20px] shrink-0 size-[20px]" alt="">
                 <span class="text-[12px]">Library</span>
             </a>
-            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
-                <img src="./assets/img/history.svg" class="mr-[20px] size-[20px]" alt="">
+            <a href="#" class=" px-[20px] h-[34px] flex items-center py-[10px] hover:bg-black38 group-has-[:checked]:after:flex after:items-center  after:hidden hover:after:content-['History'] after:absolute hover:after:ml-[40px] hover:after:h-[34px] hover:after:px-[10px] hover:after:bg-black38">
+                <img src="./assets/img/history.svg" class="mr-[20px] shrink-0 size-[20px]" alt="">
                 <span class="text-[12px]">History</span>
             </a>
-            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
-                <img src="./assets/img/your-videos.svg" class="mr-[20px] size-[20px]" alt="">
+            <a href="#" class=" px-[20px] h-[34px] flex items-center py-[10px] hover:bg-black38 group-has-[:checked]:after:flex after:items-center  after:hidden hover:after:content-['Your_videos'] after:absolute hover:after:ml-[40px] hover:after:h-[34px] hover:after:px-[10px] hover:after:bg-black38">
+                <img src="./assets/img/your-videos.svg" class="mr-[20px] shrink-0 size-[20px]" alt="">
                 <span class="text-[12px]">Your videos</span>
             </a>
-            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
-                <img src="./assets/img/watch-later.svg" class="mr-[20px] size-[20px]" alt="">
+            <a href="#" class=" px-[20px] h-[34px] flex items-center py-[10px] hover:bg-black38 group-has-[:checked]:after:flex after:items-center  after:hidden hover:after:content-['Watch_later'] after:absolute hover:after:ml-[40px] hover:after:h-[34px] hover:after:px-[10px] hover:after:bg-black38">
+                <img src="./assets/img/watch-later.svg" class="mr-[20px] shrink-0 size-[20px]" alt="">
                 <span class="text-[12px]">Watch later</span>
             </a>
-            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
-                <img src="./assets/img/liked.svg" class="mr-[20px] size-[20px]" alt="">
+            <a href="#" class=" px-[20px] h-[34px] flex items-center py-[10px] hover:bg-black38 group-has-[:checked]:after:flex after:items-center  after:hidden hover:after:content-['Liked_videos'] after:absolute hover:after:ml-[40px] hover:after:h-[34px] hover:after:px-[10px] hover:after:bg-black38">
+                <img src="./assets/img/liked.svg" class="mr-[20px] shrink-0 size-[20px]" alt="">
                 <span class="text-[12px]">Liked videos</span>
             </a>
-            <a href="#" class=" px-[20px] flex items-center py-[10px] hover:bg-black38">
-                <img src="./assets/img/more.svg" class="mr-[20px] size-[20px]" alt="">
+            <a href="#" class=" px-[20px] h-[34px] flex items-center py-[10px] hover:bg-black38 group-has-[:checked]:after:flex after:items-center  after:hidden hover:after:content-['Show_more'] after:absolute hover:after:ml-[40px] hover:after:h-[34px] hover:after:px-[10px] hover:after:bg-black38">
+                <img src="./assets/img/more.svg" class="mr-[20px] shrink-0 size-[20px]" alt="">
                 <span class="text-[12px]">Show more</span>
             </a>
 
             <hr class="border border-black38 my-[16px]">
 
-            <h3 class="pl-[21px] mb-[8px] text-primary font-semibold text-[13px]">SUBSCRIPTIONS</h3>
-
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] class="w-[100%] h-[100%]" alt="">
-                    </figure>
-                    <span class="text-[12px] text-ellipsis whitespace-nowrap overflow-hidden">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px] ">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
-            <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
-                <div class="flex items-center">
-                    <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
-                        <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
-                    </figure>
-                    <span class="text-[12px]">Nadir On The Go</span>
-                </div>
-                <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
-            </a>
+            
+            <div class="group-has-[:checked]:hidden">
+                <h3 class="pl-[21px] mb-[8px] text-primary font-semibold text-[13px]">SUBSCRIPTIONS</h3>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] class="w-[100%] h-[100%]" alt="">
+                        </figure>
+                        <span class="text-[12px] text-ellipsis whitespace-nowrap overflow-hidden">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px] ">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+                <a href="#" class="flex items-center px-[20px] py-[5px] mb-[4px] justify-between hover:bg-black38 ">
+                    <div class="flex items-center">
+                        <figure class="size-[22px] overflow-hidden rounded-full  mr-[21px]">
+                            <img src="assets/img/man.png" class="w-[100%] h-[100%] alt="">
+                        </figure>
+                        <span class="text-[12px]">Nadir On The Go</span>
+                    </div>
+                    <span class="size-[4px] bg-[#3DA6FF] rounded-full"></span>
+                </a>
+            </div>
         </div>
     </aside>
-    <main class="bg-black18 w-[calc(100%_-_220px)] py-[7px] pl-[10px] overflow-hidden h-screen">
+    <main class="bg-black18  py-[7px] pl-[10px] overflow-hidden h-screen">
         <div class="flex items-center">
             <div class="flex items-center flex-1 justify-center">
                 <div class="flex w-[534px] h-[36px] ">
@@ -237,7 +241,7 @@
 
         <hr class="border border-black38 mt-[7px]"> 
 
-        <div class="flex items-center  px-[12px] my-[10px] space-x-[12px] text-[12px] overflow-hidden hover:overflow-x-auto ">
+        <div class="flex items-center  px-[12px] my-[10px] space-x-[12px] text-[12px] w-[calc(100%_-_20px)] overflow-hidden hover:overflow-x-auto ">
             <a href="#" class="py-[8px] rounded-full  px-[12px] text-black bg-white">All</a>
             <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Cook Studio</a>
             <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">UX</a>
@@ -257,14 +261,14 @@
             <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">CookStudio</a>
             <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">Computer Programming</a>
             <a href="#" class="py-[8px] rounded-full  px-[12px] text-white bg-black47 border border-black38 shrink-0 hover:bg-black38">CookStudio</a>
-            <button class="text-white absolute right-0 bg-black12 size-[50px]">
+            <button class="text-white absolute right-0  size-[50px]">
                 <i class="fa-solid fa-chevron-right"></i>   
             </button>
         </div>
 
         <hr class="border border-black38 mt-[7px]"> 
 
-        <div class="grid grid-cols-4 gap-y-[35px] gap-x-[14px] h-[calc(100vh_-_120px)] px-[25px] py-[20px] overflow-y-auto ">
+        <div class="grid grid-cols-4   gap-y-[35px] gap-x-[14px] h-[calc(100vh_-_120px)] px-[25px] py-[20px] overflow-y-auto group-has-[:checked]:grid-cols-5">
             <div class=" h-[219px]">
                 <figure class="h-[136px] w-[100%] mb-[10px]">
                     <img src="./assets/img/phone.png" class="w-[100%] h-[100%] object-cover" alt="">
@@ -274,7 +278,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px] font-semibold ">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -300,7 +304,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px] font-semibold ">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -326,7 +330,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px] font-semibold ">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -352,7 +356,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px] font-semibold ">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -378,7 +382,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px] font-semibold ">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -404,7 +408,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px] font-semibold ">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -430,7 +434,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px] font-semibold ">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -456,7 +460,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px] font-semibold ">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -482,7 +486,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px]  font-semibold">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -508,7 +512,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px]  font-semibold">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -534,7 +538,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px]  font-semibold">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -560,7 +564,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px]  font-semibold">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
@@ -586,7 +590,7 @@
                         <img src="./assets/img/studio.png" class="w-[100%] h-[100%]" alt="">
                     </figure>
                     <div>
-                        <h4 class="text-white text-[14px] mb-[7px]  ">Bulbuli | Coke Studio Bangla |
+                        <h4 class="text-white text-[14px] mb-[7px]  font-semibold">Bulbuli | Coke Studio Bangla |
                             Season One | Ritu Raj X Nandit
                         </h4>
                         <div class="flex text-primary mb-[2px] text-[12px]">
